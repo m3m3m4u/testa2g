@@ -30,7 +30,7 @@ function normalize(text: string) {
     .trim();
 }
 
-export default function EvaluatePage() {
+export default function EvaluatePage({ embedded = false }: { embedded?: boolean }) {
   const [a, setA] = useState("");
   const [out, setOut] = useState<string>("");
   const [loading, setLoading] = useState(false);
@@ -206,7 +206,9 @@ export default function EvaluatePage() {
                 </div>
               </div>
             </div>
-            <div className="mt-3 text-xs text-gray-500">Hinweis: Dieses Feedback wurde KI-gestützt erstellt und orientiert sich an den Lehrunterlagen von Dr. German Quernheim.</div>
+            {!embedded ? (
+              <div className="mt-3 text-xs text-gray-500">Hinweis: Dieses Feedback wurde KI-gestützt erstellt und orientiert sich an den Lehrunterlagen von Dr. German Quernheim.</div>
+            ) : null}
           </div>
         </aside>
       </div>
