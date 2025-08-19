@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
-export function buildNextAuthOptions() {
+export function buildNextAuthOptions(): any {
   const ADMIN_USER = process.env.ADMIN_USERNAME;
   const ADMIN_PASS = process.env.ADMIN_PASSWORD;
 
@@ -25,7 +25,7 @@ export function buildNextAuthOptions() {
     ],
     session: { strategy: 'jwt' },
     jwt: { secret: process.env.NEXTAUTH_JWT_SECRET || process.env.API_KEY || 'dev-secret' },
-  };
+  } as any;
 }
 
-export default NextAuth(buildNextAuthOptions());
+export default NextAuth(buildNextAuthOptions() as any);
