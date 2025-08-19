@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1755619746125,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:09:05.155Z"
+  },
+  {
+    "id": 1755619745174,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:09:05.155Z"
+  },
+  {
+    "id": 1755619723171,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:08:42.878Z"
+  },
+  {
+    "id": 1755619723485,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:08:42.878Z"
+  },
+  {
+    "id": 1755619629326,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:07:09.270Z"
+  },
+  {
+    "id": 1755619630191,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T16:07:09.269Z"
+  },
+  {
+    "id": 1755616065535,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T15:07:44.583Z"
+  },
+  {
+    "id": 1755616065023,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T15:07:44.582Z"
+  },
+  {
+    "id": 1755614140084,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T14:35:39.164Z"
+  },
+  {
+    "id": 1755614139343,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T14:35:39.163Z"
+  },
+  {
+    "id": 1755613578708,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T14:26:18.320Z"
+  },
+  {
+    "id": 1755613578614,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T14:26:18.319Z"
+  },
+  {
+    "id": 1755609956052,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T13:25:55.499Z"
+  },
+  {
+    "id": 1755609955905,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T13:25:55.498Z"
+  },
+  {
+    "id": 1755609309894,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T13:15:09.091Z"
+  },
+  {
+    "id": 1755609309512,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T13:15:09.090Z"
+  },
+  {
+    "id": 1755604914357,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T12:01:53.972Z"
+  },
+  {
+    "id": 1755604914370,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T12:01:53.971Z"
+  },
+  {
+    "id": 1755603257901,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:34:17.549Z"
+  },
+  {
+    "id": 1755603258323,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:34:17.548Z"
+  },
+  {
+    "id": 1755603196918,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:33:16.039Z"
+  },
+  {
+    "id": 1755603196302,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:33:16.038Z"
+  },
+  {
+    "id": 1755603157684,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:32:36.866Z"
+  },
+  {
+    "id": 1755603157114,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T11:32:36.866Z"
+  },
+  {
+    "id": 1755600526741,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:48:46.271Z"
+  },
+  {
+    "id": 1755600526700,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:48:46.270Z"
+  },
+  {
+    "id": 1755600426853,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:47:06.015Z"
+  },
+  {
+    "id": 1755600426853,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:47:06.014Z"
+  },
+  {
+    "id": 1755599863984,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:37:43.206Z"
+  },
+  {
+    "id": 1755599863616,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:37:43.205Z"
+  },
+  {
+    "id": 1755599151092,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:25:50.317Z"
+  },
+  {
+    "id": 1755599150835,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:25:50.317Z"
+  },
+  {
+    "id": 1755599026327,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:23:45.836Z"
+  },
+  {
+    "id": 1755599026433,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:23:45.835Z"
+  },
+  {
+    "id": 1755598948855,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:22:28.136Z"
+  },
+  {
+    "id": 1755598948651,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:22:28.135Z"
+  },
+  {
+    "id": 1755598813572,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:20:12.575Z"
+  },
+  {
+    "id": 1755598812600,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:20:12.574Z"
+  },
+  {
+    "id": 1755598631741,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:17:11.677Z"
+  },
+  {
+    "id": 1755598632203,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T10:17:11.677Z"
+  },
+  {
+    "id": 1755598269436,
+    "question": "Nennen Sie drei Begriffe, die die Personenzentrierung in der Pflege beschreiben.",
+    "answer": "Mensch im Mittelpunkt\nEmpathie\nBedürfnisorientierung",
+    "evaluation": "- Korrektheit: korrekt  \n- Begründung: Alle drei Begriffe beschreiben zentrale Aspekte der Personenzentrierung in der Pflege, indem sie den Fokus auf den Patienten und seine individuellen Bedürfnisse legen.  \n- Verbesserungen: Der Nutzer könnte spezifischere Begriffe wie \"Individualität\" oder \"Partizipation\" verwenden, um die Antwort zu erweitern. Zudem wäre eine kurze Erklärung der Begriffe hilfreich.",
+    "ts": "2025-08-19T10:11:09.436Z"
+  },
+  {
+    "id": 1755598252801,
+    "question": "Nennen Sie drei Begriffe, die die Personenzentrierung in der Pflege beschreiben.",
+    "answer": "Mensch im Mittelpunkt\nPflege ist sozial\nBedürfnisorientierung",
+    "evaluation": "- Korrektheit: teilweise  \n- Begründung: Die Begriffe „Mensch im Mittelpunkt“ und „Bedürfnisorientierung“ sind korrekt, jedoch ist „Pflege ist sozial“ weniger präzise und nicht spezifisch für die Personenzentrierung.  \n- Verbesserungen: Statt „Pflege ist sozial“ könnte man „Individualität“ oder „Empathie“ verwenden, um die Personenzentrierung besser zu beschreiben.",
+    "ts": "2025-08-19T10:10:52.801Z"
+  },
+  {
+    "id": 1755598229649,
+    "question": "Nennen Sie drei Begriffe, die die Personenzentrierung in der Pflege beschreiben.",
+    "answer": "Mensch im Mittelpunkt\nPflege ist sozial",
+    "evaluation": "- Korrektheit: teilweise  \n- Begründung: Die Antwort nennt nur zwei Begriffe und der zweite Begriff ist zu vage und nicht spezifisch für die Personenzentrierung.  \n- Verbesserungen: Fügen Sie einen dritten spezifischen Begriff hinzu, wie „Individualität“ oder „Bedürfnisorientierung“. Stellen Sie sicher, dass alle Begriffe klar auf die Personenzentrierung in der Pflege abzielen.",
+    "ts": "2025-08-19T10:10:29.649Z"
+  },
+  {
+    "id": 1755596850595,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:47:30.414Z"
+  },
+  {
+    "id": 1755596851322,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:47:30.414Z"
+  },
+  {
+    "id": 1755596236446,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:37:16.411Z"
+  },
+  {
+    "id": 1755596237385,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:37:16.410Z"
+  },
+  {
+    "id": 1755595880295,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:31:19.706Z"
+  },
+  {
+    "id": 1755595880010,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:31:19.706Z"
+  },
+  {
+    "id": 1755595527633,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:25:27.238Z"
+  },
+  {
+    "id": 1755595527242,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:25:27.237Z"
+  },
+  {
+    "id": 1755594717847,
+    "question": "Wie geht Y?",
+    "answer": "Mit Z.",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:11:56.880Z"
+  },
+  {
+    "id": 1755594717602,
+    "question": "Was ist X?",
+    "answer": "X ist ...",
+    "evaluation": "FAKE_EVAL: Bewerte die folgende Antwort a...",
+    "ts": "2025-08-19T09:11:56.879Z"
+  }
+]
