@@ -114,7 +114,7 @@ export default function EvaluatePage() {
             credentials: 'same-origin',
             body: JSON.stringify({ question: FIXED_QUESTION, answer: a, evaluation: evalText }),
           });
-        } catch (e) {
+  } catch (e) {
           // ignore history save errors
         }
         } catch (e) {
@@ -129,8 +129,8 @@ export default function EvaluatePage() {
             setStatusOk(false);
           }
         }
-    } catch (err: any) {
-      setOut("Fehler: " + (err?.message || String(err)));
+    } catch (err) {
+      setOut("Fehler: " + ((err as Error)?.message || String(err)));
     } finally {
       setLoading(false);
     }

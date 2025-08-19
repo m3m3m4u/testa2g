@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
@@ -28,4 +29,4 @@ export function buildNextAuthOptions(): any {
   } as any;
 }
 
-export default NextAuth(buildNextAuthOptions() as any);
+export default NextAuth(buildNextAuthOptions());

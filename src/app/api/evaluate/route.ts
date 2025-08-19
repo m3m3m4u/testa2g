@@ -94,7 +94,7 @@ export async function POST(req: Request) {
 
   // Normalisiertes Antwort-Text available for normalization but we DO NOT use local heuristics
   const n = normalize(answer);
-  let found = new Set<string>();
+  const found = new Set<string>();
 
   // Semantische Prüfung: nutze die KI, um Synonyme / Paraphrasen zu erkennen und
   // zusätzliche sinnvolle Begriffe zu akzeptieren. Erwartetes KI-Output: reines
@@ -120,13 +120,13 @@ export async function POST(req: Request) {
       // Versuche, reines JSON zu extrahieren und zu parsen
       const jsonMatch = semResp.match(/\{[\s\S]*\}/);
       const jsonText = jsonMatch ? jsonMatch[0] : semResp;
-      const parsed: any = JSON.parse(jsonText);
-      if (parsed && Array.isArray(parsed.matched)) aiMatched = parsed.matched.filter(Boolean);
-      if (parsed && Array.isArray(parsed.acceptedExtras)) aiExtras = parsed.acceptedExtras.filter(Boolean);
-      if (parsed && typeof parsed.acceptAll === 'boolean') aiAcceptAll = parsed.acceptAll;
-      if (parsed && typeof parsed.correctness === 'string') aiCorrectness = parsed.correctness;
-      if (parsed && typeof parsed.reason === 'string') aiReason = parsed.reason;
-    } catch (err) {
+      const parsed = JSON.parse(jsonText) as Record<string, unknown>;
+      if (parsed && Array.isArray(parsed['matched'])) aiMatched = (parsed['matched'] as unknown[]).filter(Boolean) as string[];
+      if (parsed && Array.isArray(parsed['acceptedExtras'])) aiExtras = (parsed['acceptedExtras'] as unknown[]).filter(Boolean) as string[];
+      if (parsed && typeof parsed['acceptAll'] === 'boolean') aiAcceptAll = parsed['acceptAll'] as boolean;
+      if (parsed && typeof parsed['correctness'] === 'string') aiCorrectness = parsed['correctness'] as 'korrekt' | 'teilweise' | 'falsch';
+      if (parsed && typeof parsed['reason'] === 'string') aiReason = parsed['reason'] as string;
+    } catch (_err) {
       // Bei Fehlern beim semantischen Check: stiller Fallback auf exakte Heuristik
       // (kein Abbruch der Haupt-Flow)
     }
