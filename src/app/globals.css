@@ -3,6 +3,11 @@
   --foreground: #171717;
 }
 
+/* When embedded in an iframe, hide the footer note via the embed-mode container */
+.embed-mode .footer-note {
+  display: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
