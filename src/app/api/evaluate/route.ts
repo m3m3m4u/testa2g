@@ -126,7 +126,7 @@ export async function POST(req: Request) {
       if (parsed && typeof parsed['acceptAll'] === 'boolean') aiAcceptAll = parsed['acceptAll'] as boolean;
       if (parsed && typeof parsed['correctness'] === 'string') aiCorrectness = parsed['correctness'] as 'korrekt' | 'teilweise' | 'falsch';
       if (parsed && typeof parsed['reason'] === 'string') aiReason = parsed['reason'] as string;
-    } catch (_err) {
+    } catch {
       // Bei Fehlern beim semantischen Check: stiller Fallback auf exakte Heuristik
       // (kein Abbruch der Haupt-Flow)
     }
@@ -169,7 +169,7 @@ export async function POST(req: Request) {
 
     const ok = correctness === 'korrekt';
 
-    const resp: any = { model, evaluation, ok, correctness, found: Array.from(found), acceptedExtras: aiExtras, acceptAll: aiAcceptAll, reason: aiReason };
+  const resp: Record<string, unknown> = { model, evaluation, ok, correctness, found: Array.from(found), acceptedExtras: aiExtras, acceptAll: aiAcceptAll, reason: aiReason };
   // Korrigierte Anzeigeform der gefundenen / akzeptierten Begriffe
   resp.correctedFound = Array.from(found).map(f => beautifyTerm(f));
   resp.correctedAcceptedExtras = (aiExtras || []).map(e => beautifyTerm(e));

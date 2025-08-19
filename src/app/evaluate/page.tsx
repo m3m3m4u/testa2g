@@ -47,8 +47,8 @@ export default function EvaluatePage() {
     return { ok, found: Array.from(found) };
   };
 
-  const onSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const onSubmit = async (_e: React.FormEvent) => {
+    _e.preventDefault();
     setOut("Prüfung läuft…");
     setLoading(true);
     setStatusOk(null);
