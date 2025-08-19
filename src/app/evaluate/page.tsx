@@ -125,7 +125,7 @@ export default function EvaluatePage() {
             setOut(`Ihre Antwort enthält mindestens drei passende Begriffe (${local.found.join(', ')}).\n\nHinweis: Das Server-Feedback konnte nicht vollständig abgerufen werden. Der Lösungscode wird nur angezeigt, wenn die Bewertungs-API eine abschließende "korrekt"-Entscheidung trifft.`);
             setStatusOk(null);
           } else {
-            setOut(`Die automatische Prüfung konnte keine ausreichenden Treffer finden. Bitte nennen Sie drei prägnante Begriffe oder kurze Umschreibungen (Synonyme/Paraphrasen werden akzeptiert).\n\nFalls du sicher bist, dass deine Antwort korrekt ist, starte den Server neu oder prüfe die Server-Logs.`);
+            setOut(`Die automatische Prüfung konnte keine ausreichenden Treffer finden. Bitte nennen Sie drei prägnante Begriffe oder kurze Umschreibungen (Synonyme/Paraphrasen werden akzeptiert).`);
             setStatusOk(false);
           }
         }
