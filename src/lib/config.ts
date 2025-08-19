@@ -6,6 +6,7 @@ export type AppConfig = {
   wordpressBaseUrl?: string;
   wordpressUsername?: string;
   wordpressAppPassword?: string;
+  autoCreateTags?: boolean;
 };
 
 export function getConfig(): AppConfig {
@@ -19,5 +20,6 @@ export function getConfig(): AppConfig {
   wordpressBaseUrl: WORDPRESS_BASE_URL,
   wordpressUsername: WORDPRESS_USERNAME,
   wordpressAppPassword: WORDPRESS_APP_PASSWORD,
+  autoCreateTags: process.env.AUTO_CREATE_TAGS === 'true',
   };
 }

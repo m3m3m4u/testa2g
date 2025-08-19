@@ -22,6 +22,9 @@ export class WordPressClient {
   private rateDelayMs: number = Number(process.env.WP_RATE_DELAY_MS || 200);
 
   constructor(private cfg: AppConfig) {
+    if (!cfg.wordpressBaseUrl || !cfg.wordpressUsername || !cfg.wordpressAppPassword) {
+      throw new Error('WordPress configuration missing: please set WORDPRESS_BASE_URL, WORDPRESS_USERNAME and WORDPRESS_APP_PASSWORD if you enable WordPress integration.');
+    }
     this.base = cfg.wordpressBaseUrl.replace(/\/$/, '');
     const token = Buffer.from(`${cfg.wordpressUsername}:${cfg.wordpressAppPassword}`).toString('base64');
     this.authHeader = `Basic ${token}`;
